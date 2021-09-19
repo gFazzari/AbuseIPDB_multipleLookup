@@ -1,0 +1,4 @@
+1.1.1.1 --> {IpAddress:1.1.1.1 IsPublic:true IpVersion:4 IsWhitelisted:true AbuseCondidenceScore:0 CountryCode:HK UsageType:Content Delivery Network Isp:APNIC and CloudFlare DNS Resolver Project Domain:cloudflare.com Hostnames:[one.one.one.one] TotalReports:52 NumDistinctUsers:33 LastReportedAt:2021-09-19T19:34:45+00:00}
+
+8.8.8.8 --> {IpAddress:8.8.8.8 IsPublic:true IpVersion:4 IsWhitelisted:true AbuseCondidenceScore:0 CountryCode:US UsageType:Data Center/Web Hosting/Transit Isp:Google LLC Domain:google.com Hostnames:[dns.google] TotalReports:14 NumDistinctUsers:7 LastReportedAt:2021-09-17T17:04:01+00:00}
+
