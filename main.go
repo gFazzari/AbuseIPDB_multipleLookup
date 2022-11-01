@@ -41,7 +41,7 @@ func main() {
 		log.Fatal("...Error while reading API Key...")
 	}
 
-	fmt.Println("Reading a list of IPs or domain in file ./ip.txt.")
+	fmt.Println("Reading a list of IPs or domain in file ip.txt.")
 	fmt.Println("Each element must be in a separate line.")
 	f1, err := os.Open("./ip.txt")
 	if err != nil {
@@ -49,7 +49,7 @@ func main() {
 	}
 	defer f1.Close()
 
-	f2, err := os.Create("./res.txt")
+	f2, err := os.Create("res.txt")
 	if err != nil {
 		log.Fatalln("...Cant't create new file to write results...")
 	}
